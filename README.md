@@ -2,6 +2,8 @@
 
 Este es el repositorio del proyecto de la asignatura Economía. Aquí encontrarás información sobre el proyecto, cómo ejecutarlo y contribuir.
 
+Link del archivo Excel: https://docs.google.com/spreadsheets/d/1xlDfR3VzvmKdw-DwJfT3T5NPRBBtYYFqigP6gpbs7yY/edit?usp=sharing
+
 ## Ejecutar el código
 
 Para ejecutar el código de Streamlit, sigue los siguientes pasos:
