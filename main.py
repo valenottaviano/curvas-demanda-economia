@@ -25,17 +25,17 @@ def main():
 
     fig = go.Figure()
 
-    # Plot for pair 1
     y1 = weight1 * x + bias1
     fig.add_trace(go.Scatter(x=x, y=y1, mode='lines', name='Demanda 1'))
+    fig.add_trace(go.Scatter(x=x, y=y1, mode='markers', name='Demanda 1'))
 
-    # Plot for pair 2
     y2 = weight2 * x + bias2
     fig.add_trace(go.Scatter(x=x, y=y2, mode='lines', name='Demanda 2'))
+    fig.add_trace(go.Scatter(x=x, y=y2, mode='markers', name='Demanda 2'))
 
-    # Plot for pair 3
     y3 = weight3 * x + bias3
     fig.add_trace(go.Scatter(x=x, y=y3, mode='lines', name='Demanda 3'))
+    fig.add_trace(go.Scatter(x=x, y=y3, mode='markers', name='Demanda 3'))
 
     st.plotly_chart(fig)
 
