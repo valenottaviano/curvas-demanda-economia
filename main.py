@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 def main():
-    st.title("TP 2: Curvas de demandas")
+    st.title("TP 2: Curvas de demandas (grupo 1)")
     col1, col2, col3 = st.columns(3)
 
     col1.write("Demanda 1")
@@ -39,6 +39,12 @@ def main():
     fig.update_layout(yaxis_range=[0, None])
     fig.update_layout(xaxis_range=[0, None])
     st.plotly_chart(fig)
+
+    st.write("Integrantes del grupo:")
+    st.write("- Valentín Ottaviano")
+    st.write("- Ezequiel Balardini")
+    st.write("- Eduardo Lescano")
+    st.write("- Nicolás Ferrari")
 
     pass
 
